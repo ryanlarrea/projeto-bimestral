@@ -51,8 +51,6 @@ export const Container = styled.div`
       flex-direction: column;
     }
 
-    /* pedir pro André ver pq os botoes n ficam alinhados ao centro */
-
     button {
       margin: 5px;
     }

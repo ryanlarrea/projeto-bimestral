@@ -42,12 +42,11 @@ export const Container = styled.div`
     padding: 10px;
   }
 
-  @media (max-width: 600px) {
-    .acoes {
+  @media (max-width: 798px) {
+    .botoes {
+      display: flex;
       flex-direction: column;
     }
-
-    /* pedir pro André ver pq os botoes n ficam alinhados ao centro */
 
     button {
       margin: 5px;
