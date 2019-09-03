@@ -11,10 +11,10 @@ export default function Cadastro() {
 
         <section className="container">
           <label htmlFor="nome">Nome</label>
-          <input type="text" />
+          <input type="text" placeholder="Ex.: Ryan" />
 
           <label htmlFor="email">E-mail</label>
-          <input type="text" />
+          <input type="text" placeholder="example@mail.com" />
 
           <label htmlFor="senha">Senha</label>
           <input type="password" />
