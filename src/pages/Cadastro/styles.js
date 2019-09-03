@@ -46,16 +46,6 @@ export const Container = styled.div`
     padding: 10px;
   }
 
-  @media (max-width: 600px) {
-    .acoes {
-      flex-direction: column;
-    }
-
-    button {
-      margin: 5px;
-    }
-  }
-
   button {
     color: #fff;
     width: 140px;
