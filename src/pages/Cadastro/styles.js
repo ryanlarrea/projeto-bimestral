@@ -22,6 +22,10 @@ export const Container = styled.div`
     width: 400px;
   }
 
+  h1 {
+    margin-bottom: 20px;
+  }
+
   input {
     margin-bottom: 20px;
     -webkit-border-radius: 5px;
