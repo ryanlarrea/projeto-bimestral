@@ -7,9 +7,9 @@ export default function Login() {
   return (
     <Container>
       <form>
-        <h1>Entre com sua conta</h1>
-
         <section className="container">
+          <h1>Entre com sua conta</h1>
+
           <label htmlFor="email">E-mail</label>
           <input type="text" />
 
