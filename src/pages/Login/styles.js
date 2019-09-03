@@ -18,6 +18,10 @@ export const Container = styled.div`
     background: rgba(0, 0, 0, 0.6);
   }
 
+  h1 {
+    margin-bottom: 20px;
+  }
+
   input {
     margin-bottom: 20px;
     -webkit-border-radius: 5px;
