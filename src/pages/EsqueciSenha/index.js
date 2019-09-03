@@ -7,9 +7,9 @@ export default function EsqueciSenha() {
   return (
     <Container>
       <form>
-        <h1>Digite um e-mail para recuperar sua senha</h1>
-
         <section className="container">
+          <h1>Digite um e-mail para recuperar sua senha</h1>
+
           <label htmlFor="email">E-mail</label>
           <input type="text" />
 
