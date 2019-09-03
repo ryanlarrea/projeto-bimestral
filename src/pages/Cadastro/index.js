@@ -7,9 +7,9 @@ export default function Cadastro() {
   return (
     <Container>
       <form>
-        <h1>Cadastre-se!</h1>
-
         <section className="container">
+          <h1>Cadastre-se!</h1>
+
           <label htmlFor="nome">Nome</label>
           <input type="text" placeholder="Ex.: Ryan" />
 
