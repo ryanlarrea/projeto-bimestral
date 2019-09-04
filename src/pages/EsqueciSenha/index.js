@@ -11,7 +11,7 @@ export default function EsqueciSenha() {
           <h1>Digite um e-mail para recuperar sua senha</h1>
 
           <label htmlFor="email">E-mail</label>
-          <input id="email" type="text" />
+          <input id="email" type="email" />
 
           <div className="acoes">
             <button type="submit">Enviar</button>
