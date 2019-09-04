@@ -11,10 +11,10 @@ export default function Login() {
           <h1>Entre com sua conta</h1>
 
           <label htmlFor="email">E-mail</label>
-          <input type="email" />
+          <input id="email" type="email" />
 
           <label htmlFor="senha">Senha</label>
-          <input type="password" />
+          <input id="senha" type="password" />
 
           <div className="acoes">
             <div className="esquecisenha">
