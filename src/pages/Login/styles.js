@@ -33,6 +33,7 @@ export const Container = styled.div`
     outline: 0;
     width: 100%;
     height: 35px;
+    padding: 5px;
   }
 
   input:focus {
