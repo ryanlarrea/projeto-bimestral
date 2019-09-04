@@ -14,11 +14,7 @@ export default function Cadastro() {
           <input type="text" placeholder="Ex.: Ryan" />
 
           <label htmlFor="email">E-mail</label>
-<<<<<<< HEAD
           <input type="email" placeholder="example@mail.com" />
-=======
-          <input type="text" placeholder="example@mail.com" />
->>>>>>> c83566bd9e4768de9a73784e245fd4f55670beb7
 
           <label htmlFor="senha">Senha</label>
           <input type="password" />

@@ -46,7 +46,6 @@ export const Container = styled.div`
     flex-direction: column;
   }
 
-<<<<<<< HEAD
   .voltar {
     display: flex;
     justify-content: center;
@@ -57,8 +56,6 @@ export const Container = styled.div`
     font-weight: bold;
   }
 
-=======
->>>>>>> c83566bd9e4768de9a73784e245fd4f55670beb7
   button {
     color: #fff;
     width: 100%;

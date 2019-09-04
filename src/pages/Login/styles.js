@@ -44,7 +44,6 @@ export const Container = styled.div`
     flex-direction: column;
   }
 
-<<<<<<< HEAD
   .esquecisenha {
     display: flex;
     justify-content: flex-end;
@@ -58,7 +57,8 @@ export const Container = styled.div`
   .cadastrar > a {
     font-size: 20px;
     font-weight: bold;
-=======
+  }
+
   @media (max-width: 798px) {
     .botoes {
       display: flex;
@@ -68,7 +68,6 @@ export const Container = styled.div`
     button {
       margin: 5px;
     }
->>>>>>> c83566bd9e4768de9a73784e245fd4f55670beb7
   }
 
   button {
