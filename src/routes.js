@@ -9,8 +9,8 @@ export default function Routes() {
   return (
     <BrowserRouter>
       <Route exact path="/" component={Login} />
-      <Route exact path="/cadastro" component={Cadastro} />
-      <Route exact path="/forgotpass" component={EsqueciSenha} />
+      <Route path="/cadastro" component={Cadastro} />
+      <Route path="/forgotpass" component={EsqueciSenha} />
     </BrowserRouter>
   );
 }
