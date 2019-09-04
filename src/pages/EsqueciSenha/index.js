@@ -7,15 +7,17 @@ export default function EsqueciSenha() {
   return (
     <Container>
       <form>
-        <h1>Digite um e-mail para recuperar sua senha</h1>
-
         <section className="container">
+          <h1>Digite um e-mail para recuperar sua senha</h1>
+
           <label htmlFor="email">E-mail</label>
           <input type="text" />
 
           <div className="acoes">
             <button type="submit">Enviar</button>
-            <Link to="/">Voltar ao login</Link>
+            <div className="voltar">
+              <Link to="/">Voltar ao Login</Link>
+            </div>
           </div>
         </section>
       </form>
