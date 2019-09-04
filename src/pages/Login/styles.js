@@ -22,6 +22,10 @@ export const Container = styled.div`
     background: rgba(0, 0, 0, 0.6);
   }
 
+  h1 {
+    margin-bottom: 20px;
+  }
+
   input {
     margin-bottom: 10px;
     -webkit-border-radius: 5px;
@@ -40,6 +44,7 @@ export const Container = styled.div`
     flex-direction: column;
   }
 
+<<<<<<< HEAD
   .esquecisenha {
     display: flex;
     justify-content: flex-end;
@@ -53,6 +58,17 @@ export const Container = styled.div`
   .cadastrar > a {
     font-size: 20px;
     font-weight: bold;
+=======
+  @media (max-width: 798px) {
+    .botoes {
+      display: flex;
+      flex-direction: column;
+    }
+
+    button {
+      margin: 5px;
+    }
+>>>>>>> c83566bd9e4768de9a73784e245fd4f55670beb7
   }
 
   button {
