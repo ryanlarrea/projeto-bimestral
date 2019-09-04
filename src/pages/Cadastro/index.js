@@ -11,13 +11,13 @@ export default function Cadastro() {
           <h1>Cadastre-se!</h1>
 
           <label htmlFor="nome">Nome</label>
-          <input type="text" placeholder="Ex.: Ryan" />
+          <input id="nome" type="text" placeholder="Ex.: Ryan" />
 
           <label htmlFor="email">E-mail</label>
-          <input type="email" placeholder="example@mail.com" />
+          <input id="email" type="email" placeholder="example@mail.com" />
 
           <label htmlFor="senha">Senha</label>
-          <input type="password" />
+          <input id="senha" type="password" />
 
           <div className="acoes">
             <button type="submit">Cadastrar</button>
