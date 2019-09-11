@@ -48,6 +48,7 @@ export const Container = styled.div`
   .esquecisenha {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 15px;
   }
 
   .cadastrar {
